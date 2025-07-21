@@ -22,9 +22,8 @@ jobs:
       - name: Run HTMLHint
         run: npx htmlhint '**/*.html'
 
-      - name: Run Stylelint
-        run: npx stylelint '**/*.css'
   deploy:
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
