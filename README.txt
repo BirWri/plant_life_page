@@ -1,3 +1,12 @@
+A static website about a plant's growth process hosted on AWS S3.
+Features:
+Route 53
+IAM role
+Lint
+Automated deployment on push
+
+Here is the info provided by the template creator:
+
 Lens by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
